@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search here</title>
+</head>
+<body>
+<fieldset >
+<form action="./home" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    <h1 class="text-center" style="background-color: gray;">Search Form</h1>
+    <a href="#">&nbsp; &nbsp; Home &nbsp; &nbsp;</a>
+    <a href="#">&nbsp; &nbsp; Logout &nbsp; &nbsp;</a><br>
+    <br>
+    <div class="formgroup">
+        Search :<input type="search" name="search"class="form-control mb-1" placeholder="Seaech here....">
+    </div>
+    <br>
+    <div class="formgroup">
+        <button type="submit" class="btn btn-primary float-right mb-1" >Search</button>
+         <button type="reset" class="btn btn-primary float-right mb-1" >Reset</button>
+    </div>
+</form>
+</fieldset>
+</body>
+</html>

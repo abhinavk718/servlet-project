@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<%@page import="java.util.Date"%>
+<html>
+<head>
+<%
+  
+
+Date date=new Date();
+
+%>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1 style="color:green;">Date and Time is : 18-11-2019 10:57:57 AM</h1>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    <h1 class="text-center" style="background-color: gray;">Search Form</h1>
+    <div class="formgroup">
+        <input type="text" name="search"class="form-control mb-1" placeholder="Seaech here....">
+    </div>
+    <div class="formgroup">
+        <button type="submit" class="btn btn-primary float-right mb-1" >Search</button>
+    </div>
+</form>
+</body>
+</html>

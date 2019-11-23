@@ -1,0 +1,41 @@
+package com.empwebapp.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.empwebapp.dto.EmployeeInfo;
+
+public class EmployeeDaojdbcImpl implements EmployeeDAO {
+	private String url="jdbc:mysql://localhost:3306/ust_ty_web_db?user=root&password=root";
+	@Override
+	public EmployeeInfo auth(int id, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeeInfo searchEmployee(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean changePassword(int id, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean registerEmployee(EmployeeInfo info) {
+		String sql="insert into employee_info values(?,?,?,?)";
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Change password here</title>
+</head>
+<body>
+<form action="" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    <h1 class="text-center" style="background-color: gray;">Change password</h1>
+    <div class="formgroup">
+        New Password :<input type="text" name="newpassword"class="form-control mb-1" placeholder="Enter new password....">
+    </div>
+    <br>
+    <div class="formgroup">
+       Confirm Password : <input type="text" name="confirmpassword"class="form-control mb-1" placeholder="Confirm password....">
+    </div>
+    <br>
+    <div class="formgroup">
+        <button type="submit" class="btn btn-primary float-right mb-1" >Change</button>
+    </div>
+</form>
+</body>
+</html>

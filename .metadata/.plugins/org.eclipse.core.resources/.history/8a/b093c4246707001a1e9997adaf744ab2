@@ -1,0 +1,5 @@
+package com.empwebapp.dto;
+
+public class EmployeeInfo {
+
+}
